@@ -1,0 +1,8 @@
+{
+  "name": "packages",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/packages",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
