@@ -1,7 +1,7 @@
 {
-  "name": "packages",
+  "name": "public-fe",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/packages",
+  "sourceRoot": "apps/public-fe",
   "projectType": "application",
   "targets": {},
   "tags": []
