@@ -3,6 +3,15 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/admin",
   "projectType": "application",
-  "targets": {},
+  "targets": {
+    "dev": {
+      "executor": "@nx/next:server",
+      "options": {
+        "buildTarget": "build",
+        "dev": true,
+        "port": 3001
+      }
+    }
+  },
   "tags": []
 }

@@ -2,7 +2,11 @@
   "name": "meldingen-frontend",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many --parallel --target=dev --projects=admin,public",
+    "dev:admin": "nx dev admin",
+    "dev:public": "nx dev public"
+  },
   "private": true,
   "dependencies": {
     "next": "14.0.4",
