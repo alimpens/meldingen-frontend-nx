@@ -5,6 +5,17 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": [
+        "airbnb",
+        "airbnb-typescript",
+        "plugin:jsx-a11y/strict",
+        "prettier"
+      ],
+      "plugins": ["import", "@typescript-eslint"],
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "project": "./tsconfig.json"
+      },
       "rules": {
         "@nx/enforce-module-boundaries": [
           "error",
@@ -18,7 +29,26 @@
               }
             ]
           }
-        ]
+        ],
+        "@typescript-eslint/consistent-type-imports": "error",
+        "import/no-extraneous-dependencies": [
+          "error",
+          { "devDependencies": true }
+        ],
+        "import/order": [
+          "error",
+          {
+            "groups": ["external", "internal", "parent", "sibling"],
+            "newlines-between": "always",
+            "alphabetize": {
+              "order": "asc",
+              "caseInsensitive": true
+            }
+          }
+        ],
+        "import/prefer-default-export": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/react-in-jsx-scope": "off"
       }
     },
     {
