@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@public-fe/components": ["components/src/index.ts"]
+      "@public/components": ["components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

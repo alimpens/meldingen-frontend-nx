@@ -1,7 +1,7 @@
 {
-  "name": "public-fe",
+  "name": "public",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/public-fe",
+  "sourceRoot": "apps/public",
   "projectType": "application",
   "targets": {},
   "tags": []
