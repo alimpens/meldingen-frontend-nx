@@ -4,13 +4,13 @@
   "plugins": ["@nx"],
   "overrides": [
     {
+      "files": "*.json",
+      "parser": "jsonc-eslint-parser",
+      "rules": {}
+    },
+    {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      "extends": [
-        "airbnb",
-        "airbnb-typescript",
-        "plugin:jsx-a11y/strict",
-        "prettier"
-      ],
+      "extends": ["airbnb", "airbnb-typescript", "plugin:jsx-a11y/strict", "prettier"],
       "plugins": ["import", "@typescript-eslint"],
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
@@ -31,10 +31,7 @@
           }
         ],
         "@typescript-eslint/consistent-type-imports": "error",
-        "import/no-extraneous-dependencies": [
-          "error",
-          { "devDependencies": true }
-        ],
+        "import/no-extraneous-dependencies": "off",
         "import/order": [
           "error",
           {
