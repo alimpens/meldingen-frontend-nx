@@ -1,8 +1,20 @@
 {
   "name": "meldingen-frontend",
   "version": "0.0.0",
-  "license": "MIT",
+  "description": "Frontends for the Signalen applications",
+  "author": "Gemeente Amsterdam",
+  "license": "EUPL-1.2",
   "private": true,
+  "engines": {
+    "node": "^20",
+    "npm": "^10",
+    "yarn": "please-use-npm",
+    "pnpm": "please-use-npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimpens/meldingen-frontend-nx.git"
+  },
   "scripts": {
     "build": "nx run-many --target=build",
     "build:admin": "nx build admin",
