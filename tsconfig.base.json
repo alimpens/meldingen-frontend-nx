@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "ui": ["libs/ui/src/index.ts"]
+      "@meldingen/ui": ["libs/ui/src/index.ts"],
+      "@meldingen/formio": ["libs/formio/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
