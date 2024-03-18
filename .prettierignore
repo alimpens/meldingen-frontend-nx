@@ -1,4 +1,17 @@
-# Add files here to ignore them from prettier formatting
-/dist
-/coverage
-/.nx/cache
+# Ignore 3rd party files
+node_modules
+vendor
+
+# Ignore generated files
+build
+coverage
+dist
+tmp
+.nx/cache
+
+# The indentation of dependency JSON files should only be updated by `yarn` and
+# `npm` commands, so dependency automation scripts (such as Dependabot and
+# Snyk) automatically use the correct indentation.
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
