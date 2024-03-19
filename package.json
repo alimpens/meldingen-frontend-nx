@@ -22,14 +22,9 @@
     "dev": "nx run-many --parallel --target=dev --projects=admin,public",
     "dev:admin": "nx dev admin",
     "dev:public": "nx dev public",
-    "lint": "nx run-many --target=lint",
-    "lint:css": "stylelint --allow-empty-input '**/*.{css,scss}'",
-    "lint:md": "markdownlint **/*.md --ignore node_modules",
-    "lint-fix": "nx run-many --target=lint --fix",
-    "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
-    "lint-fix:md": "markdownlint --fix **/*.md",
-    "prepare": "husky",
-    "prettier": "prettier --write ."
+    "lint": "markdownlint **/*.md && nx run-many --target=lint,stylelint",
+    "lint:fix": "markdownlint --fix **/*.md && prettier --write . && nx run-many --target=lint,stylelint --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "@amsterdam/design-system-assets": "0.2.0",
@@ -85,6 +80,7 @@
     "lint-staged": "15.2.2",
     "markdownlint-cli": "0.39.0",
     "nx": "18.0.8",
+    "nx-stylelint": "17.1.4",
     "prettier": "2.6.2",
     "stylelint": "16.2.1",
     "stylelint-config-css-modules": "4.4.0",

@@ -11,6 +11,13 @@
         "dev": true,
         "port": 3001
       }
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/admin/**/*.css"]
+      }
     }
   },
   "tags": []
