@@ -1,7 +1,7 @@
 /* TODO: can we target div with ref=element more directly? */
 .component div[ref='element'] {
   display: grid;
-  gap: var(--space-xxs);
+  gap: var(--ams-space-grid-xs);
 }
 
 /* TODO: this could be nicer */
@@ -17,9 +17,9 @@
 }
 
 .messageContainer {
-  color: var(--amsterdam-color-primary-red);
-  font-family: var(--amsterdam-typography-font-family);
-  font-size: var(--amsterdam-typography-spacious-text-level-6-font-size);
-  font-weight: var(--amsterdam-typography-font-weight-normal);
-  line-height: var(--amsterdam-typography-spacious-text-level-6-line-height);
+  color: var(--ams-color-primary-red);
+  font-family: var(--ams-text-font-family);
+  font-size: var(--ams-text-level-6-font-size);
+  font-weight: var(--ams-text-font-weight-normal);
+  line-height: var(--ams-text-level-6-line-height);
 }

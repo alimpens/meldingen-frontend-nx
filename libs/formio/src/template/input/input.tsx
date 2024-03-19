@@ -12,12 +12,12 @@ export const input = (ctx: any) => `
   </${ctx.input.type}>
   ${
     ctx.component.showCharCount
-      ? `<span aria-live="polite" class="amsterdam-paragraph amsterdam-paragraph--small" ref="charcount"></span>`
+      ? `<span aria-live="polite" class="ams-paragraph ams-paragraph--small" ref="charcount"></span>`
       : ''
   }
   ${
     ctx.component.showWordCount
-      ? `<span aria-live="polite" class="amsterdam-paragraph amsterdam-paragraph--small" ref="wordcount"></span>`
+      ? `<span aria-live="polite" class="ams-paragraph ams-paragraph--small" ref="wordcount"></span>`
       : ''
   }
 `

@@ -25,7 +25,7 @@
           "value": ""
         }
       ],
-      "content": "Voordat u een melding doet kunt u op de <a href=\"https://acc.meldingen.amsterdam.nl/meldingenkaart\" target=\"_blank\" class=\"amsterdam-link amsterdam-link--inline\">meldingenkaart</a> zien welke meldingen bekend zijn bij de gemeente.",
+      "content": "Voordat u een melding doet kunt u op de <a href=\"https://acc.meldingen.amsterdam.nl/meldingenkaart\" target=\"_blank\" class=\"ams-link ams-link--inline\">meldingenkaart</a> zien welke meldingen bekend zijn bij de gemeente.",
       "refreshOnChange": false,
       "key": "html",
       "type": "htmlelement",

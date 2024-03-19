@@ -8,6 +8,7 @@ import {
   PageMenu,
   Paragraph,
   VisuallyHidden,
+  Column,
 } from '@amsterdam/design-system-react'
 
 export function Footer() {
@@ -19,7 +20,7 @@ export function Footer() {
         </VisuallyHidden>
         <Grid gapVertical="large" paddingVertical="medium">
           <Grid.Cell span={{ narrow: 3, medium: 4, wide: 4 }}>
-            <div style={{ display: 'grid' }} className="amsterdam-gap-xs">
+            <Column gap="small">
               <Heading level={2} size="level-4" inverseColor>
                 Contact
               </Heading>
@@ -33,7 +34,7 @@ export function Footer() {
               <Paragraph size="small" inverseColor>
                 Wij zijn bereikbaar van maandag tot en met vrijdag van 08.00 tot 18.00 uur.
               </Paragraph>
-            </div>
+            </Column>
           </Grid.Cell>
         </Grid>
       </ADSFooter.Top>
