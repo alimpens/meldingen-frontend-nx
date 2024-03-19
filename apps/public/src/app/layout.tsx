@@ -1,5 +1,6 @@
-import { Footer, Header, Screen } from '@meldingen/ui'
 import type { Metadata } from 'next'
+
+import { Footer, Header, Screen } from '@meldingen/ui'
 
 import '@amsterdam/design-system-tokens/dist/index.css'
 import '@amsterdam/design-system-assets/font/index.css'

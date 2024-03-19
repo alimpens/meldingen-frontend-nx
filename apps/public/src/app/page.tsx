@@ -1,7 +1,8 @@
 'use client'
 
-import { Grid } from '@meldingen/ui'
 import dynamic from 'next/dynamic'
+
+import { Grid } from '@meldingen/ui'
 
 import mockData from '../mocks/formio-output.json'
 
