@@ -24,7 +24,8 @@
     "dev:public": "nx dev public",
     "lint": "markdownlint **/*.md && prettier --check . && nx run-many --target=lint,stylelint",
     "lint:fix": "markdownlint --fix **/*.md && prettier --write . && nx run-many --target=lint,stylelint --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "nx run-many --target=test"
   },
   "dependencies": {
     "@amsterdam/design-system-assets": "0.2.0",
