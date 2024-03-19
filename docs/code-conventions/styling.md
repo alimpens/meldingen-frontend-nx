@@ -13,10 +13,12 @@ Give the css file the same name as the component, so it’s easier to find in yo
 For example:
 
 ```text
-├── components
-│   ├── Button
-│   │   ├── Button.tsx
-│   │   ├── Button.module.css
+libs
+├── ui
+|   ├── src
+|   │   ├── Button
+|   │   │   ├── Button.tsx
+|   │   │   ├── Button.module.css
 ```
 
 ### Composition
