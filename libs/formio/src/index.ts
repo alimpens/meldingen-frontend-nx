@@ -1,2 +1,2 @@
-export { Form } from './Form'
+export { FormRenderer } from './FormRenderer'
 export { FormBuilder } from './FormBuilder'
