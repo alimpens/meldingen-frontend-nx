@@ -82,7 +82,7 @@
     "jsdom": "22.1.0",
     "lint-staged": "15.2.2",
     "markdownlint-cli": "0.39.0",
-    "nx": "18.1.2",
+    "nx": "24.0.4",
     "nx-stylelint": "17.1.4",
     "prettier": "2.6.2",
     "stylelint": "16.2.1",
