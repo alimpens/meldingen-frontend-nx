@@ -83,7 +83,7 @@
     "lint-staged": "15.2.2",
     "markdownlint-cli": "0.39.0",
     "nx": "18.1.2",
-    "nx-stylelint": "17.1.4",
+    "nx-stylelint": "19.0.0",
     "prettier": "2.6.2",
     "stylelint": "16.2.1",
     "stylelint-config-css-modules": "4.4.0",
