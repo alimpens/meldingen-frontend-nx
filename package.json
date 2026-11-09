@@ -30,7 +30,7 @@
     "test:watch:win": "nx watch --all --parallel=10 -- nx run %NX_PROJECT_NAME%:test"
   },
   "dependencies": {
-    "@amsterdam/design-system-assets": "0.2.0",
+    "@amsterdam/design-system-assets": "2.7.0",
     "@amsterdam/design-system-css": "0.7.0",
     "@amsterdam/design-system-react": "0.7.0",
     "@amsterdam/design-system-tokens": "0.7.0",
